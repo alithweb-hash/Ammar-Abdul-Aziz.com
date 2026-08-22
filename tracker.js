@@ -177,7 +177,7 @@ document.addEventListener("DOMContentLoaded", () => {
                         html += `
                         <div style="background:white; padding:12px; border:1px solid #e0e0e0; border-radius:6px; box-shadow:0 1px 3px rgba(0,0,0,0.05);">
                             <strong style="color:#d32f2f; display:block; border-bottom:1px solid #eee; padding-bottom:5px; margin-bottom:8px;">${d.dayTitle}</strong>
-                            <ul style="margin:0; padding-right:20px; font-size:14px; color:#444;">
+                            <ul style="margin:0; padding-right:20px; font-size:14px; color:#444; word-break: break-word; overflow-wrap: break-word;">
                                 ${d.exercises.map(ex => `<li style="margin-bottom:4px;">${ex}</li>`).join('')}
                             </ul>
                         </div>`;
